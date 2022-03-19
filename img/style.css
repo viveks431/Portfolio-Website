@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+/*
+Primary Color (Turquoise): #357b70;
+Secondary Color (Orange): #e0b354;
+Dark Grey : #2b2b2b
+Background Color (Lightgray): #D3D3D3;
+Text Color Light (White): #FFF;
+Text Color Dark (Black): #000;
+
+*/
+* {
+  box-sizing: border-box;
+  font-family: Balsamiq Sans;
+  color: black;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #12395d;
+  height: 15vh;%;
+}
+.header img{
+  padding: .1em;
+  margin: .1em;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70%;
+  padding: 0%;
+  margin: 0%;
+  background-color: white;
+}
+.nav li{
+  display: inline;
+}
+.nav{
+  text-align: right;
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+.nav a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: .5em;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.nav a:hover{
+  background-color: rgba(255, 255, 255, .4);
+}
+.main img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 50%;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #12395d;
+  padding: .25em 0;
+  height: 20vh;
+}
+.footer p{
+  color: white;
+  padding: o;
+  margin: 0 auto;
+  width: 100px;
+}
+.nav-footer{
+  width: 100px;
+}
+.nav-footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
