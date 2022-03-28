@@ -1,1 +1,1 @@
-web: bin/boot
+web: cd bin/boot & http-server
